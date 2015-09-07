@@ -14,7 +14,6 @@ $(document).ready(function() {
 	$("#mainSquare").append(content);
 
 	$(".squares").hover(function() {
-		console.log("Im being hovered!");
 		$(this).addClass('hoveredSquares');
 	}, function() {	
 		/* Stuff to do when the mouse leaves the element */	
@@ -23,9 +22,6 @@ $(document).ready(function() {
 
 });
 
-$("#menu").click(function() {
-	console.log("YAYA!");
-});
 
 
 		

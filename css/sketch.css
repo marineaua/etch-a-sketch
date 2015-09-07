@@ -7,20 +7,8 @@ td {
 	padding: 0px;
 }
 
-button {
-
-}
-
-
 #mainSquare {
 	display: flex;
-}
-
-#test {
-	height: 200px;
-	width: 200px;
-	background-color: blue;
-	padding: 0px;
 }
 
 .squares {
@@ -33,6 +21,6 @@ button {
 .hoveredSquares {
 	height: 50px;
 	width: 50px;
-	background-color: #666;
+	background-color: white;
 	padding: 0px;
 }
