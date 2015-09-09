@@ -1,3 +1,9 @@
+html,body {
+	height: 100%;
+	width: 100%;
+	background-color: #FCFBE3;
+}
+
 table {
 	border-collapse: collapse;
 	padding: 0px;
@@ -7,8 +13,46 @@ td {
 	padding: 0px;
 }
 
+h1 {
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+button {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#outer {
+
+}
+
+
+#header {
+
+}
+
 #mainSquare {
-	display: flex;
+	/*position: fixed;
+	top: 50%;
+	left: 50%;
+	*/
+
+	height: 600px;
+	width: 600px;
+	/*margin-top: -300px;
+	margin-left: -300px;
+	*/
+}
+
+#footer {
+
+}
+
+.inner{
+	width:50%;
+	margin: 0 auto;
 }
 
 .squares {
@@ -16,6 +60,7 @@ td {
 	width: 50px;
 	background-color: black;
 	padding: 0px;
+	display: float;
 }
 
 .hoveredSquares {

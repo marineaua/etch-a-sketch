@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Etch-A-Sketch!</title>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script type="text/javascript" src="js/sketch.js"></script>
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/sketch.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/sketch.css">
 
-	<link rel="stylesheet" type="text/css" href="css/sketch.css">
-</head>
-<body>
-	<div id="mainSquare">
-
-	</div>
-</body>
+		<title>Etch-A-Sketch!</title>
+	</head>
+	<body>
+		<div id="outer">
+			<div class="inner" id="header">
+				<h1>Sketch it!</h1>
+				
+				<button>Classic</button>
+				<button>Shades</button>
+				
+			</div>
+			<div class="inner" id="mainSquare">
+				
+			</div>
+			<div class="inner" id="footer">
+			<button>Size</button>
+				<button>Reset</button>
+				<h1>This is the last bit!</h1>	
+			</div>
+		</div>
+	</body>
 </html>
